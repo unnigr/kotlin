@@ -194,7 +194,7 @@
             android:layout_marginStart="8dp"
             android:text="SLEEP"
             android:textSize="10sp"
-            android:textColor="@color=text"
+            android:textColor="@color/text"
             android:background="@drawable/bg_chip"
             android:minWidth="0dp"
             android:padding="0dp" />
