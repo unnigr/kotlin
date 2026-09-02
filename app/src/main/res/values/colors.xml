@@ -1,8 +1,12 @@
 <resources>
-    <color name="bg">#0A0A0D</color>
-    <color name="panel">#15151B</color>
-    <color name="panel2">#1D1D25</color>
-    <color name="text">#F5F5F7</color>
-    <color name="muted">#9B9BA5</color>
-    <color name="accent">#FFFFFF</color>
+    <color name="bg">#08090C</color>
+    <color name="panel">#12141A</color>
+    <color name="panel2">#1A1D25</color>
+    <color name="panel3">#222631</color>
+    <color name="text">#F7F8FA</color>
+    <color name="muted">#9298A6</color>
+    <color name="accent">#DFFB72</color>
+    <color name="accent2">#8BE9FF</color>
+    <color name="onAccent">#10120B</color>
+    <color name="line">#2B2F39</color>
 </resources>

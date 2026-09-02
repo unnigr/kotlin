@@ -18,11 +18,11 @@ class VinylView @JvmOverloads constructor(context: Context, attrs: AttributeSet?
     override fun onDraw(canvas: Canvas) {
         super.onDraw(canvas)
         val cx = width / 2f; val cy = height / 2f; val r = (minOf(width, height) * 0.36f)
-        paint.shader = LinearGradient(cx-r, cy-r, cx+r, cy+r, 0xFF202027.toInt(), 0xFF050507.toInt(), Shader.TileMode.CLAMP)
+        paint.shader = LinearGradient(cx-r, cy-r, cx+r, cy+r, 0xFF353A46.toInt(), 0xFF050507.toInt(), Shader.TileMode.CLAMP)
         canvas.drawCircle(cx, cy, r, paint); paint.shader = null
-        paint.style = Paint.Style.STROKE; paint.strokeWidth = 2f; paint.color = 0xFF33333A.toInt()
+        paint.style = Paint.Style.STROKE; paint.strokeWidth = 2f; paint.color = 0xFF454B58.toInt()
         for (i in 1..7) canvas.drawCircle(cx, cy, r * (i/8f), paint)
         paint.style = Paint.Style.FILL; paint.color = 0xFF111117.toInt(); canvas.drawCircle(cx, cy, r*0.25f, paint)
-        paint.color = 0xFFEDEDED.toInt(); canvas.drawCircle(cx, cy, r*0.08f, paint)
+        paint.color = 0xFFDFFB72.toInt(); canvas.drawCircle(cx, cy, r*0.08f, paint)
     }
 }
